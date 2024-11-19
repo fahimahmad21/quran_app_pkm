@@ -35,6 +35,8 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  hive: ^2.2.3
+  path_provider: ^2.1.5
 
 dev_dependencies:
   flutter_test:
@@ -58,8 +60,10 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
-assets:
-  - assets/images
+  assets:
+    - assets/images/carousel1.png
+    - assets/images/carousel2.png
+    - assets/images/carousel3.png
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
@@ -76,13 +80,13 @@ assets:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-fonts:
-  - family: primary
-    fonts:
-      - asset: assets/fonts/gilroy/Gilroy-Semibold.ttf
-  - family: child
-    fonts:
-      - asset: assets/fonts/Odin/Regular/Odin_Rounded_Regular.otf
+  fonts:
+    - family: primary
+      fonts:
+          - asset: assets/fonts/gilroy/Gilroy-Semibold.ttf
+    - family: child
+      fonts:
+          - asset: assets/fonts/Odin/Regular/Odin_Rounded_Regular.otf
   # fonts:
   #   - family: Schyler
   #     fonts:
